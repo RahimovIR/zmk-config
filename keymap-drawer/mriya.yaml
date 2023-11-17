@@ -150,7 +150,7 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - MUTE
+  - {t: PLAY PAUSE, h: MUTE}
   - LEFT
   - UP
   - RIGHT
