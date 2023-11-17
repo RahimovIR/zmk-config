@@ -50,7 +50,7 @@ layers:
   - .
   - /
   - {t: \, h: RALT}
-  - LA(LWIN)
+  - LA(LSHFT)
   - {t: TAB, h: raise}
   - {t: SPACE, h: LSHFT}
   - {t: RET, h: lower}
