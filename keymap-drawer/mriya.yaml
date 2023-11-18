@@ -137,7 +137,7 @@ layers:
   - KP 8
   - KP 9
   - KP MINUS
-  - VOL UP
+  - {t: VOLUME UP, h: NEXT}
   - HOME
   - PSCRN
   - PG UP
@@ -162,7 +162,7 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - VOL DN
+  - {t: VOLUME DOWN, h: PREVIOUS}
   - END
   - DOWN
   - PG DN
