@@ -55,7 +55,7 @@ layers:
   - {t: SPACE, h: LSHFT}
   - {t: RET, h: lower}
   - {t: ESC, h: lower}
-  - {t: BSPC, h: RSHFT}
+  - {t: BSPC, h: RCTRL}
   - {t: DEL, h: raise}
   - {t: ']', h: RGUI}
   lower:
