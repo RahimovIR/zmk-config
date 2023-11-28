@@ -135,7 +135,7 @@ layers:
   - KP SLASH
   - KP 7
   - KP 8
-  - KP 9
+  - '&equalWithSpace'
   - KP MINUS
   - {t: VOLUME UP, h: NEXT}
   - HOME
