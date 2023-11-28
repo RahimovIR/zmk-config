@@ -55,7 +55,7 @@ layers:
   - {t: SPACE, h: LSHFT}
   - {t: RET, h: lower}
   - {t: ESC, h: lower}
-  - {t: BSPC, h: RCTRL}
+  - {t: BSPC, h: LEFT SHIFT}
   - {t: DEL, h: raise}
   - {t: ']', h: RGUI}
   lower:
@@ -146,9 +146,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: '=', h: LCTRL}
   - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
+  - LEFT ALT
+  - LEFT SHIFT
+  - LCTRL
   - KP PLUS
   - {t: PLAY PAUSE, h: MUTE}
   - LEFT
@@ -157,11 +157,11 @@ layers:
   - INS
   - {t: APP, h: RCTRL}
   - {t: ▽, type: trans}
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
+  - LC(Z)
+  - LC(X)
+  - LC(C)
+  - LC(V)
+  - LC(Y)
   - {t: VOLUME DOWN, h: PREVIOUS}
   - END
   - DOWN
