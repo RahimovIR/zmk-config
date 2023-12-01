@@ -151,7 +151,7 @@ layers:
   - LSHIFT
   - KP PLUS
   - PAGE UP
-  - DOWN ARROW
+  - LEFT ARROW
   - UP ARROW
   - RIGHT ARROW
   - {t: ▽, type: trans}
