@@ -137,7 +137,7 @@ layers:
   - KP 8
   - '='
   - KP MINUS
-  - {t: VOLUME UP, h: NEXT}
+  - LC(Y)
   - LC(V)
   - LC(C)
   - LC(X)
@@ -150,11 +150,11 @@ layers:
   - LCTRL
   - LSHIFT
   - KP PLUS
-  - {t: PLAY PAUSE, h: MUTE}
-  - LEFT
-  - UP ARROW
+  - LEFT ARROW
   - DOWN ARROW
-  - RIGHT
+  - UP ARROW
+  - RIGHT ARROW
+  - {t: ▽, type: trans}
   - {t: APP, h: RCTRL}
   - {t: ▽, type: trans}
   - LC(Z)
@@ -162,11 +162,11 @@ layers:
   - LC(C)
   - LC(V)
   - LC(Y)
-  - {t: VOLUME DOWN, h: PREVIOUS}
   - HOME
-  - PAGE UP
   - PAGE DOWN
+  - PAGE UP
   - END
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
