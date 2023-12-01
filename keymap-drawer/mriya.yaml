@@ -28,14 +28,14 @@ layers:
   - {t: ']', h: RWIN}
   - LCTRL
   - A
-  - S
-  - D
-  - F
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - J
-  - K
-  - L
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT CONTROL}
+  - {t: L, h: RIGHT ALT}
   - ;
   - {t: '''', h: RCTRL}
   - LALT
@@ -135,26 +135,26 @@ layers:
   - KP SLASH
   - KP 7
   - KP 8
-  - '&equalWithSpace'
+  - '='
   - KP MINUS
   - {t: VOLUME UP, h: NEXT}
-  - HOME
-  - PSCRN
-  - PG UP
-  - SLCK
+  - LC(V)
+  - LC(C)
+  - LC(X)
+  - LC(Z)
   - CAPS
   - {t: ▽, type: trans}
   - {t: '=', h: LCTRL}
   - KP MULTIPLY
   - LEFT ALT
-  - LEFT SHIFT
   - LCTRL
+  - LSHIFT
   - KP PLUS
   - {t: PLAY PAUSE, h: MUTE}
   - LEFT
-  - UP
+  - DOWN ARROW
+  - UP ARROW
   - RIGHT
-  - INS
   - {t: APP, h: RCTRL}
   - {t: ▽, type: trans}
   - LC(Z)
@@ -163,10 +163,10 @@ layers:
   - LC(V)
   - LC(Y)
   - {t: VOLUME DOWN, h: PREVIOUS}
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
   - END
-  - DOWN
-  - PG DN
-  - PAUSE BREAK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
