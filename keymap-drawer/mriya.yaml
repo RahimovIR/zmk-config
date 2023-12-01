@@ -150,7 +150,7 @@ layers:
   - LCTRL
   - LSHIFT
   - KP PLUS
-  - LEFT ARROW
+  - PAGE UP
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
@@ -162,9 +162,9 @@ layers:
   - LC(C)
   - LC(V)
   - LC(Y)
-  - HOME
   - PAGE DOWN
-  - PAGE UP
+  - HOME
+  - DOWN ARROW
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
