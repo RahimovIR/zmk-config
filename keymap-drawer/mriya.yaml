@@ -50,7 +50,7 @@ layers:
   - .
   - /
   - {t: \, h: RALT}
-  - LA(LSHFT)
+  - {t: LA(LEFT SHIFT), h: media}
   - {t: TAB, h: raise}
   - {t: SPACE, h: LSHFT}
   - {t: RET, h: lower}
@@ -152,8 +152,8 @@ layers:
   - KP PLUS
   - {t: PLAY PAUSE, h: MUTE}
   - LEFT
-  - DOWN ARROW
   - UP ARROW
+  - DOWN ARROW
   - RIGHT
   - {t: APP, h: RCTRL}
   - {t: ▽, type: trans}
@@ -164,8 +164,8 @@ layers:
   - LC(Y)
   - {t: VOLUME DOWN, h: PREVIOUS}
   - HOME
-  - PAGE DOWN
   - PAGE UP
+  - PAGE DOWN
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -235,3 +235,62 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - ''
+  media:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOLUME UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
