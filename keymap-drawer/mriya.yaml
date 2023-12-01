@@ -29,12 +29,12 @@ layers:
   - LCTRL
   - A
   - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT CONTROL}
+  - {t: D, h: LCTRL}
   - {t: F, h: LEFT SHIFT}
   - G
   - H
   - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT CONTROL}
+  - {t: K, h: RCTRL}
   - {t: L, h: RIGHT ALT}
   - ;
   - {t: '''', h: RCTRL}
