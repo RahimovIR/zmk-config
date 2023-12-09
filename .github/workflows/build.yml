@@ -3,8 +3,3 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-  draw:
-    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
-    with:
-      # Use the triggering commit's message, prepending the "[Draw]" tag
-      commit_message: "[Draw] ${{ github.event.head_commit.message }}"
