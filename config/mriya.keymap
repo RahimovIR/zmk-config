@@ -96,11 +96,11 @@
 
         raise_layer {
             bindings = <
-        &trans           &trans           &trans        &trans     &trans      &trans          &trans         &trans          &trans          &trans           &trans     &trans
-&trans  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7     &kp KP_N8  &kp EQUAL   &kp KP_MINUS    &kp LC(Y)      &kp LC(V)       &kp LC(C)       &kp LC(X)        &kp LC(Z)  &kp CAPS         &trans
-        &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &kp KP_PLUS     &kp PAGE_UP    &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans     &mt RCTRL K_APP
-        &trans           &kp LC(Z)        &kp LC(X)     &kp LC(C)  &kp LC(V)   &kp LC(Y)       &kp PAGE_DOWN  &kp HOME        &kp DOWN_ARROW  &kp END          &trans     &trans
-                                          &trans        &trans     &trans      &lt 3 RET       &lt 3 ESC      &trans          &trans          &trans
+        &trans           &trans        &trans        &trans     &trans      &trans       &trans         &trans          &trans          &trans           &trans     &trans
+&trans  &kp KP_NUM       &kp KP_SLASH  &kp KP_N7     &kp KP_N8  &kp EQUAL   &kp CAPS     &kp LC(Y)      &kp LC(V)       &kp LC(C)       &kp LC(X)        &kp LC(Z)  &kp CAPS         &trans
+        &mt LCTRL EQUAL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &kp MINUS    &kp PAGE_UP    &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans     &mt RCTRL K_APP
+        &trans           &kp LC(Z)     &kp LC(X)     &kp LC(C)  &kp LC(V)   &kp LC(Y)    &kp PAGE_DOWN  &kp HOME        &kp DOWN_ARROW  &kp END          &trans     &trans
+                                       &trans        &trans     &trans      &lt 3 RET    &lt 3 ESC      &trans          &trans          &trans
             >;
         };
 
