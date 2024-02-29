@@ -92,11 +92,11 @@
 
         raise_layer {
             bindings = <
-        &trans           &trans         &trans            &trans              &trans      &trans        &trans         &trans          &trans        &trans           &trans     &trans
-&trans  &kp KP_NUM       &kp LESS_THAN  &kp GREATER_THAN  &kp LA(LEFT_SHIFT)  &kp EQUAL   &caps_word    &kp PAGE_UP    &kp BACKSPACE   &kp DEL       &kp LC(X)        &kp LC(Z)  &kp CAPS         &trans
-        &mt LCTRL EQUAL  &kp LEFT_GUI   &kp LEFT_ALT      &kp LCTRL           &kp LSHIFT  &kp MINUS     &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans     &mt RCTRL K_APP
-        &trans           &kp LC(Z)      &kp LC(X)         &kp LC(C)           &kp LC(V)   &kp LC(Y)     &kp PAGE_DOWN  &kp HOME        &kp END       &none            &trans     &trans
-                                        &trans            &trans              &trans      &trans        &trans         &trans          &trans        &trans
+        &trans           &trans         &trans            &trans              &trans      &trans        &trans         &trans          &trans                &trans            &trans     &trans
+&trans  &kp KP_NUM       &kp LESS_THAN  &kp GREATER_THAN  &kp LA(LEFT_SHIFT)  &kp EQUAL   &caps_word    &kp PAGE_UP    &kp LESS_THAN   &kp NON_US_BACKSLASH  &kp GREATER_THAN  &kp LC(Z)  &kp CAPS         &trans
+        &mt LCTRL EQUAL  &kp LEFT_GUI   &kp LEFT_ALT      &kp LCTRL           &kp LSHIFT  &kp MINUS     &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW   &trans     &mt RCTRL K_APP
+        &trans           &kp LC(Z)      &kp LC(X)         &kp LC(C)           &kp LC(V)   &kp LC(Y)     &kp PAGE_DOWN  &kp HOME        &kp END               &none             &trans     &trans
+                                        &trans            &trans              &trans      &trans        &trans         &trans          &trans                &trans
             >;
         };
 
