@@ -105,11 +105,11 @@
 
         lower_layer {
             bindings = <
-        &trans          &trans    &trans  &trans    &trans    &trans       &trans     &trans             &trans    &trans                  &trans    &trans
-&trans  &kp UNDER       &none     &none   &none     &none     &none        &none      &kp C_VOLUME_DOWN  &media    &mt C_NEXT C_VOLUME_UP  &none     &none            &none
-        &mt LCTRL PLUS  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS           &kp STAR  &kp LPAR                &kp RPAR  &mt RCTRL MINUS
-        &mt LALT EQUAL  &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp N6     &kp N7             &kp N8    &kp N9                  &kp N0    &trans
-                                  &trans  &trans    &trans    &trans       &trans     &trans             &trans    &trans
+        &trans          &trans    &trans            &trans    &trans             &trans       &trans     &kp C_VOLUME_DOWN  &media    &kp C_VOLUME_UP  &trans    &trans
+&trans  &kp UNDER       &none     &kp LEFT_BRACKET  &none     &kp RIGHT_BRACKET  &none        &none      &kp LEFT_BRACE     &media    &kp RIGHT_BRACE  &none     &none            &none
+        &mt LCTRL PLUS  &kp EXCL  &kp AT            &kp HASH  &kp DLLR           &kp PRCNT    &kp CARET  &kp AMPS           &kp STAR  &kp LPAR         &kp RPAR  &mt RCTRL MINUS
+        &mt LALT EQUAL  &kp N1    &kp N2            &kp N3    &kp N4             &kp N5       &kp N6     &kp N7             &kp N8    &kp N9           &kp N0    &trans
+                                  &trans            &trans    &trans             &trans       &trans     &kp DEL            &trans    &trans
             >;
         };
 
