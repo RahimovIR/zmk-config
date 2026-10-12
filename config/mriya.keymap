@@ -29,6 +29,66 @@
             bindings = <&none &kp SPACE &kp EQUAL &kp SPACE>;
             label = "EQUALWITHSPACE";
         };
+
+        win_comma: win_comma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings = <&macro_press &kp LALT>,
+                       <&macro_tap &kp KP_N0 &kp KP_N0 &kp KP_N4 &kp KP_N4>,
+                       <&macro_release &kp LALT>;
+        };
+
+        win_less: win_less {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings = <&macro_press &kp LALT>,
+                       <&macro_tap &kp KP_N0 &kp KP_N0 &kp KP_N6 &kp KP_N0>,
+                       <&macro_release &kp LALT>;
+        };
+
+        win_period: win_period {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings = <&macro_press &kp LALT>,
+                       <&macro_tap &kp KP_N0 &kp KP_N0 &kp KP_N4 &kp KP_N6>,
+                       <&macro_release &kp LALT>;
+        };
+
+        win_greater: win_greater {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings = <&macro_press &kp LALT>,
+                       <&macro_tap &kp KP_N0 &kp KP_N0 &kp KP_N6 &kp KP_N2>,
+                       <&macro_release &kp LALT>;
+        };
+
+        win_slash: win_slash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings = <&macro_press &kp LALT>,
+                       <&macro_tap &kp KP_N0 &kp KP_N0 &kp KP_N4 &kp KP_N7>,
+                       <&macro_release &kp LALT>;
+        };
+
+        win_question: win_question {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings = <&macro_press &kp LALT>,
+                       <&macro_tap &kp KP_N0 &kp KP_N0 &kp KP_N6 &kp KP_N3>,
+                       <&macro_release &kp LALT>;
+        };
     };
 
     behaviors {
@@ -76,6 +136,27 @@
             bindings = <&kp BSPC>, <&kp DEL>;
             mods = <(MOD_LSFT | MOD_RSFT)>;
             keep-mods = <(MOD_RSFT)>;
+        };
+
+        punct_comma: punctuation_comma {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&win_comma>, <&win_less>;
+            mods = <(MOD_LSFT | MOD_RSFT)>;
+        };
+
+        punct_period: punctuation_period {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&win_period>, <&win_greater>;
+            mods = <(MOD_LSFT | MOD_RSFT)>;
+        };
+
+        punct_slash: punctuation_slash {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&win_slash>, <&win_question>;
+            mods = <(MOD_LSFT | MOD_RSFT)>;
         };
 
         media: media {
@@ -128,7 +209,7 @@
         raise_layer {
             bindings = <
         &trans           &trans        &trans        &trans              &trans      &trans            &trans         &trans          &trans        &trans           &trans           &trans
-&trans  &kp KP_NUM       &kp LC(Y)     &kp KP_PLUS   &kp LA(LEFT_SHIFT)  &kp EQUAL   &caps_word        &kp PAGE_UP    &none           &none         &none            &kp PRINTSCREEN  &kp CAPS         &trans
+&trans  &kp KP_NUM       &kp LC(Y)     &kp KP_PLUS   &kp LA(LEFT_SHIFT)  &kp EQUAL   &caps_word        &kp PAGE_UP    &punct_comma    &punct_period &punct_slash     &kp PRINTSCREEN  &kp CAPS         &trans
         &mt LCTRL EQUAL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL           &kp LSHIFT  &kp MINUS         &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp ENTER        &mt RCTRL K_APP
         &trans           &kp LC(Z)     &kp LC(X)     &kp LC(C)           &kp LC(V)   &kp UNDERSCORE    &kp PAGE_DOWN  &kp HOME        &kp END       &none            &kp BACKSLASH    &trans
                                        &trans        &trans              &trans      &trans            &trans         &trans          &trans        &trans
